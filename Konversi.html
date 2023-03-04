@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Contoh Pemprgraman Javascript</title>
+</head>
+<script language="Javascript">
+    var nilai = prompt("Nilai (0-100):",0);
+    var hasil = "";
+    if (nilai  >= 41 && nilai <= 55)
+    hasil = "D";
+    else if (nilai  >= 56 && nilai <= 60)
+    hasil = "C";
+    else if (nilai  >= 61 && nilai <= 65)
+    hasil = "BC";
+    else if (nilai  >= 66 && nilai <= 70)
+    hasil = "B";
+    else if (nilai  >= 71 && nilai <= 80)
+    hasil = "AB";
+    else if (nilai  >= 81 && nilai <= 100)
+    hasil = "A";
+    else 
+    hasil = "E";
+    document.write("Hasil : " + hasil);
+</script>
+<body type="button" name="button1" value="relational" onclick=test()>
+</body>
+</html>

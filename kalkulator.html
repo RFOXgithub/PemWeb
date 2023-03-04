@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="kalkulator.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4">
+          <input type="text" id="hasil" disabled>
+        </td>
+      </tr>
+      <tr>
+        <td><button onclick="tambah()">+</button></td>
+        <td><button onclick="kurang()">-</button></td>
+        <td><button onclick="kali()">x</button></td>
+        <td><button onclick="bagi()">/</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahAngka(1)">1</button></td>
+        <td><button onclick="tambahAngka(2)">2</button></td>
+        <td><button onclick="tambahAngka(3)">3</button></td>
+        <td rowspan="4"><button onclick="hitung()">=</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahAngka(4)">4</button></td>
+        <td><button onclick="tambahAngka(5)">5</button></td>
+        <td><button onclick="tambahAngka(6)">6</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahAngka(7)">7</button></td>
+        <td><button onclick="tambahAngka(8)">8</button></td>
+        <td><button onclick="tambahAngka(9)">9</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="tambahAngka(0)">0</button></td>
+        <td><button onclick="bersihkan()">C</button></td>
+        <td><button onclick="tambahTitik()">.</button></td>
+      </tr>
+    </table>
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
